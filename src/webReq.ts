@@ -16,9 +16,7 @@ const fetchData = async () => {
             console.log("Axios Error" , error.message);
             if(error.response){
                 console.log(error.response.status);
-                
             }
-            
         }
     }
 }
